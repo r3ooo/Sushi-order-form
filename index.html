@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="box">
+		<main>
+			<div class="order">
+				<div class="wrapper">
+					<div class="title">
+						<h1>Оформление заказа</h1>
+					</div>
+					<div class="order-fields">
+						<div class="order-item">
+							<div class="field-title">1. Контактная информация
+							</div>
+							<div class="field-flex">
+								<div class="field">
+									<input type="text" size="28" required="" placeholder="Имя*" value="">
+								</div>
+								<div class="field">
+									<input type="text" placeholder="Телефон*" required="" value=""></div>
+								</div>
+							</div>
+							<div class="order-item field-delivery">
+								<div class="field-title">2. Адрес доставки</div>
+								<div class="field-address">
+									<div class="field-address-box">
+										<div class="field">
+											<input placeholder="Укажите улицу*" type="text" value="">
+										</div>
+										<div class="field">
+											<input placeholder="Номер дома*" type="text" value="">
+										</div>
+										<div class="field">
+											<input placeholder="№ квартиры/офиса" type="text" value="">
+										</div>
+										<div class="field">
+											<input placeholder="Подъезд" type="text" value="">
+										</div>
+										<div class="field">
+											<input placeholder="Этаж" type="text" value="">
+										</div>
+										<div class="field field-comment">
+											<input placeholder="Комментарий" maxlength="500" type="text">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="order-item order-sticks">
+								<div class="field-title">3. Приборы</div>
+								<div class="sticks">
+									
+									<div class="form_radio_btn">
+										<input id="radio-1" type="radio" name="form_radio" value="1" checked>
+										<label for="radio-1">Деревянные палочки</label>
+									</div>
+
+									<div class="form_radio_btn">
+										<input id="radio-2" type="radio" name="form_radio" value="2">
+										<label for="radio-2">Металлические палочки</label>
+									</div>
+
+									<div class="form_radio_btn">
+										<input id="radio-3" type="radio" name="form_radio" value="3">
+										<label for="radio-3">Пластиковые приборы</label>
+									</div>
+								</div>
+								<div class="field-change">
+									<input placeholder="Количество приборов" value="">
+								</div>
+								<div class="form_toggle">
+									<div class="form_toggle-item item-1">
+										<input id="fid-1" type="radio" name="fid-1-2" value="off" checked>
+										<label for="fid-1">Без салфеток</label>
+									</div>
+									<div class="form_toggle-item item-2">
+										<input id="fid-2" type="radio" name="fid-1-2" value="on">
+										<label for="fid-2">Салфетки</label>
+									</div>
+								</div>
+							</div>
+							<div class="order-item">
+								<div class="field-title">4. Детали</div>
+								<div class="payment-time">
+									<div class="field-change">
+										<input placeholder="Дополнительные комментарии" value="">
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="order-bottom">
+							<div class="agree-block">
+								<div class="basket-agree">
+									<input class="checkbox" id="agree" type="checkbox" checked="">
+									<label for="agree"></label>
+									<p>Я согласен на обработку моих перс. данных в соответствии с <a target="_blank" href="">Условиями</a></p>
+								</div>
+							</div>
+							<div class="order-button">
+								<div class="order-btn"><button>Отправить заказ</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+</body>
+</html>
